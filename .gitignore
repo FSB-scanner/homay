@@ -1,0 +1,26 @@
+# Compiled binary
+homay
+homay.exe
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Runtime output (scan results, history, favorites — these are
+# per-user data, not part of the source tree)
+homay-*.json
+homay-*.csv
+homay-*.txt
+homay-last.json
+homay-favorites.json
+
+# Go test/build cache
+*.test
+*.out
+
+# Editor/OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
